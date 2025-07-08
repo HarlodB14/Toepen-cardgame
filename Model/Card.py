@@ -1,9 +1,9 @@
 class Card:
     SUITS = {
-        "Hearts": {"symbol": "♥", "color": "red", "name": "Hearts"},
-        "Diamonds": {"symbol": "♦", "color": "red", "name": "Diamonds"},
-        "Clubs": {"symbol": "♣", "color": "black", "name": "Clubs"},
-        "Spades": {"symbol": "♠", "color": "black", "name": "Spades"},
+        "Hearts": {"symbol": "♥", "color": "RED", "name": "HEARTS"},
+        "Diamonds": {"symbol": "♦", "color": "RED", "name": "DIAMONDS"},
+        "Clubs": {"symbol": "♣", "color": "BLACK", "name": "CLUBS"},
+        "Spades": {"symbol": "♠", "color": "BLACK", "name": "SPADES"},
     }
 
     def __init__(self, suit, rank):
