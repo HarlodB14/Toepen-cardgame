@@ -9,4 +9,3 @@ class GameState:
         self.cards_on_board = cards_on_board
         self.active_player_id = active_player_id
         self.round_number = round_number
-       
